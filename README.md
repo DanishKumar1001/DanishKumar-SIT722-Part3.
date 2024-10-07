@@ -1,4 +1,3 @@
-# DanishKumar-SIT722-Part3.
 # Cloud-Native DevOps Project (Part 3 of 5)
 
 ## Background
