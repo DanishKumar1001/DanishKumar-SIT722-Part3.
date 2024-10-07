@@ -48,9 +48,11 @@ In this task, you are continuing work from the previous project, focusing on Doc
 
 ### Steps
 
-1. Downlaod code from the **Task Resources** and unzip.
-2. Create a github repository named : <your-name-sit722-part2> .
+1. Downlaod code from the Task Resources and unzip.
+2. Create a github repository named : <your-name-sit722-part3> .
 3. Add given code to a github repository (local first then push to the remote repo).
-4. Write Dockerfile.
-5. Create** deployment.yaml **for each microservice.
-6. Deploy Microservice to Local Kubernetes.
+4. Write Dockerfiles for both Microservices ( book_catalog and inventory_management ).
+5. Write a Docker Compose file to orchestrate the microservices and PostgreSQL database (Use Azure PostgreSQL or Render PostgreSQL).
+6. Upload docker images to the remote repository.
+7. Create deployment.yaml .
+8. Deploy Microservice to Azure Managed Kubernetes.
