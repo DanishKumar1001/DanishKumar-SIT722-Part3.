@@ -1,5 +1,6 @@
 from sqlalchemy.orm import Session
-from . import models, schemas
+# from . import models, schemas
+import models, schemas
 
 def get_book(db: Session, book_id: int):
     return db.query(models.Book).filter(models.Book.id == book_id).first()
